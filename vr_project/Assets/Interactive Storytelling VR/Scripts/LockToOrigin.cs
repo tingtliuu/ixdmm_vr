@@ -8,7 +8,7 @@ public class LockToOrigin : MonoBehaviour
     GameObject OriginalLocation;
     //Transform newTransform;
     // Start is called before the first frame update
-    void OnEnable()
+    void Start()
     {
         //Debug.Log(name + ": " + transform.TransformPoint(GetComponent<LockToPoint>().transform.localPosition));
         OriginalLocation = new GameObject(name + "'s Original Transform");
@@ -22,5 +22,10 @@ public class LockToOrigin : MonoBehaviour
     void Update()
     {
        // Debug.Log(name + "'s World Position: " + newTransform.position);
+    }
+
+    public void Destroy()
+    {
+        Destroy(OriginalLocation);
     }
 }
