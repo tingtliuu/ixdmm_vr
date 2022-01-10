@@ -7,29 +7,26 @@ public class SessionManager : MonoBehaviour
     // Start is called before the first frame update
 
     public Transform destination;
-
     public GameObject[] npcs;
-
     public GameObject trigger;
+    [SerializeField] Transform player;
 
     bool gameStart;
+    [SerializeField] float speed = 1f;
 
     void triggerNpc(int e)
 
     {
-        if (destination.transform.position.x > npcs[e].transform.position.x)
+        Vector3 npcPosition = npcs[e].transform.position;
+        if (npcPosition.x < destination.transform.position.x)
         {
-            npcs[e].transform.Translate(new Vector3(1, 0, 0) * (Time.deltaTime * 10));
-
-
+            float step = speed * Time.deltaTime; // calculate distance to move
+            npcs[e].transform.position = Vector3.MoveTowards(npcPosition, (destination.position - new Vector3(0, destination.position.y, 0)), step);
         }
-
-        else if (destination.transform.rotation.y > npcs[e].transform.rotation.y)
+        else
         {
-            npcs[e].transform.Rotate(new Vector3(0.0f, 1.0f, 0.0f));
-
+            npcs[e].transform.LookAt(player, Vector3.up);
         }
-
     }
 
 
