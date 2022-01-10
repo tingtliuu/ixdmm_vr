@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
+    [HideInInspector] public GameObject GameManager;
     public bool isAtDestination;
-    public bool interactionStarted;
     public bool interactionFinished;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDestroy()
     {
-        
+        GameManager.GetComponent<NPCManager>().npcNumber++;
     }
 }

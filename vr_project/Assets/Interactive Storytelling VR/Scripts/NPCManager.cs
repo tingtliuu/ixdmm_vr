@@ -7,14 +7,20 @@ public class NPCManager : MonoBehaviour
 
     [SerializeField] private GameObject[] npcs;
     [SerializeField] private Transform destination;
+    [SerializeField] private Transform NPCExit;
     [SerializeField] private float movementSpeed;
     private Transform player;
     private bool gameStart;
-    private int npcNumber = 0;
+    [HideInInspector] public int npcNumber = 0;
+    private float intervall = 0.2f;
 
     void Start()
     {
         player = GetComponent<GameManager>().Player.transform;
+        foreach(GameObject npc in npcs)
+        {
+            npc.GetComponent<NPC>().GameManager = this.gameObject;
+        }
     }
 
     // Update is called once per frame
@@ -27,13 +33,8 @@ public class NPCManager : MonoBehaviour
     {
         if (gameStart)
         {
-            if (npcs[npcNumber].GetComponent<NPC>().interactionFinished && npcNumber != npcs.Length - 1)
-            {
-                npcNumber++;                
-            }
-            
-                triggerNpc(npcNumber);
-            
+           if(npcNumber != npcs.Length - 1)
+            triggerNpc(npcNumber);            
         }
     }
 
@@ -45,24 +46,30 @@ public class NPCManager : MonoBehaviour
         Vector3 npcPosition = npcs[e].transform.position;
 
         float distanceToTarget = Vector3.Distance(npcPosition, destination.position);
-        
-        if (distanceToTarget < .3f)
-        {
-            npc.isAtDestination = true;
-        }
-        Debug.Log(npc.isAtDestination);
+
         if (npc.isAtDestination == false)
         {
+            if (distanceToTarget < intervall)
+            {
+                npc.isAtDestination = true;
+            }
+
             npcs[e].transform.position = Vector3.MoveTowards(npcPosition, destination.position, movementSpeed * Time.deltaTime);
         }
-        else
+        else if (npc.isAtDestination && npc.interactionFinished == false)
         {
             npcs[e].transform.LookAt((player.position - new Vector3(0,player.position.y,0)), Vector3.up);
         }
-        
+
+        if (npc.interactionFinished)
+        {
+            npcs[e].transform.LookAt((NPCExit.position - new Vector3(0, NPCExit.position.y, 0)), Vector3.up);
+            npcs[e].transform.position = Vector3.MoveTowards(npcPosition, NPCExit.position, movementSpeed * Time.deltaTime);
+        }
+
     }
 
-
+  
     public void nextNPC()
     {
 
