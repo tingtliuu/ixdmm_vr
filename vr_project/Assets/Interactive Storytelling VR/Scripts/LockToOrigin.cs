@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem.Sample;
 
+[RequireComponent(typeof(LockToPoint))]
 public class LockToOrigin : MonoBehaviour
 {
     GameObject OriginalLocation;
