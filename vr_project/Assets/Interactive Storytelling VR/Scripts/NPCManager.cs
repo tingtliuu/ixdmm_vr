@@ -27,6 +27,13 @@ public class NPCManager : MonoBehaviour
     void Update()
     {
         gameStart = GetComponent<GameManager>().gameStart;
+
+        if (npcNumber == npcs.Length)
+        {
+            GetComponent<TriggerTeleport>().activateTeleport = true; //Fadeout
+
+        }
+            
     }
 
     private void FixedUpdate()
@@ -69,9 +76,4 @@ public class NPCManager : MonoBehaviour
 
     }
 
-  
-    public void nextNPC()
-    {
-
-    }
 }

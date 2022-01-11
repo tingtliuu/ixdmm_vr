@@ -58,7 +58,7 @@ public class TriggerTeleport : MonoBehaviour
 
         if(Head.Count != 0)
         {
-            //Player.
+            
         }
         
     }
