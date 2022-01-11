@@ -9,6 +9,7 @@ public class TriggerTeleport : MonoBehaviour
     public int fadeTimer = 2;
     public Transform Player;
     public Transform TargetLocation;
+    public bool activateTeleport;
 
     private void Start()
     {
@@ -17,8 +18,9 @@ public class TriggerTeleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (activateTeleport)
         {
+            activateTeleport = false;
             startFade = !startFade;
 
             if (startFade)
