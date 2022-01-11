@@ -33,7 +33,7 @@ public class NPCManager : MonoBehaviour
     {
         if (gameStart)
         {
-           if(npcNumber != npcs.Length - 1)
+           if(npcNumber != npcs.Length)
             triggerNpc(npcNumber);            
         }
     }

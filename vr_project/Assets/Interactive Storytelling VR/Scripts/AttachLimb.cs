@@ -25,22 +25,19 @@ public class AttachLimb : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-       
-        if (missingLimbsList.Count == 0) return;
-
-        GameObject offeredLimb = other.transform.parent.gameObject;
+        if (missingLimbsList.Count == 0 || other.transform.parent.tag != "Player") return;       
+        GameObject offeredLimb = other.transform.gameObject;
+        
 
         for (int i = 0; i < missingLimbsList.Count; i++) {
-
-            //Debug.Log(missingLimbsList[i].name);
-                if (offeredLimb.CompareTag(missingLimbsList[i].tag))
-                {
-                missingLimbsList[i].GetComponentInChildren<MeshRenderer>().material = other.GetComponent<MeshRenderer>().material;
+            if (offeredLimb.CompareTag(missingLimbsList[i].tag))
+            {
+                missingLimbsList[i].GetComponent<MeshRenderer>().material = other.GetComponent<MeshRenderer>().material;
                 missingLimbsList.Remove(missingLimbsList[i]);
                 offeredLimb.GetComponent<LockToOrigin>().Destroy();
                 offeredLimb.GetComponent<LockToPoint>().enabled = false;
                 Destroy(offeredLimb);
-                }
+            }
               
         }
         

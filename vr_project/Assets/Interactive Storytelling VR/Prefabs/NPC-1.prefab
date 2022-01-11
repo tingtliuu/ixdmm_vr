@@ -61,8 +61,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e703a46e92310c468df101154aa2513, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameManager: {fileID: 0}
   isAtDestination: 0
-  interactionStarted: 0
   interactionFinished: 0
 --- !u!1 &1476526729261827584
 GameObject:
