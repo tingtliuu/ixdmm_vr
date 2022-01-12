@@ -368,6 +368,42 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[0]
+      value: No 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[1]
+      value: No 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[0]
+      value: Yes 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[1]
+      value: Yes 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[0]
+      value: Scenario 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[1]
+      value: Scenario 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3724878222101540657, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -644,7 +680,7 @@ MonoBehaviour:
   - {fileID: 730182101}
   destination: {fileID: 59655803}
   NPCExit: {fileID: 0}
-  movementSpeed: 10
+  movementSpeed: 100
   npcNumber: 0
 --- !u!114 &905274040
 MonoBehaviour:

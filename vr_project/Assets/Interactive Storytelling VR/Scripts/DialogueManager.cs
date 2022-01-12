@@ -5,14 +5,17 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Text nameText;
     public Text dialogueText;
     public Queue<string> sentences;
+    [SerializeField] private GameObject[] dialogueUsers;
    // public Dialogue[] dialogueChoices;
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
+        foreach (GameObject obj in dialogueUsers){
+            obj.GetComponent<DialogueTrigger>().dialogueManager = this;
+        }
     }
 
     public void StartDialogue(Dialogue dialogue)

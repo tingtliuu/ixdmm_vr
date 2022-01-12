@@ -2,53 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(DialogueTrigger))]
 public class NPC : MonoBehaviour
 {
     [HideInInspector] public GameObject GameManager;
-    
+
+    bool first = true;
     public bool isAtDestination;
     public bool interactionFinished;
-    bool first = true;
-    bool first1 = true;
-    public Dialogue ScenarioDialogue;
-    public Dialogue YesChoice;
-    public Dialogue NoChoice;
-    private DialoguePackage dialoguePackage;
-    // Start is called before the first frame update
+    List<Dialogue> dialoguePackage;
+    [SerializeField] Dialogue ScenarioDialogue;
+    [SerializeField] Dialogue YesChoice;
+    [SerializeField] Dialogue NoChoice;
 
     private void Start()
     {
-        //dialoguePackage = new DialoguePackage();
-        //Debug.Log(dialoguePackage.dialogues[0]);
-
-        //Debug.Log(dialoguePackage.dialogues[0].sentences);
-        //
-        // dialoguePackage.dialogues[0] = ScenarioDialogue;
-
-
+        dialoguePackage = new List<Dialogue>();
+        dialoguePackage.Add(ScenarioDialogue);
+        dialoguePackage.Add(YesChoice);
+        dialoguePackage.Add(NoChoice);
+        GetComponent<DialogueTrigger>().init(dialoguePackage);
     }
-    private void OnDestroy()
-    {
-        GameManager.GetComponent<NPCManager>().npcNumber++;
-        
-    }
+
     private void Update()
     {
         if (isAtDestination && first)
         {
+            GetComponent<DialogueTrigger>().StartDialogue();
             first = false;
-            triggerNPCDialogue();
-            //Set Canavs to visible
         }
+
         if (interactionFinished)
         {
-            first1 = false;
-            //sett canvas invisible
+            GetComponent<DialogueTrigger>().loadDialogue(2);
+            interactionFinished = false;
         }
     }
 
-    public void triggerNPCDialogue()
-    {
-        //Debug.Log(dialoguePackage.dialogues[0].sentences); //Trigger dialogue button
-    }
 }
