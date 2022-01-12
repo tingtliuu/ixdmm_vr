@@ -1266,6 +1266,7 @@ Transform:
   - {fileID: 622000760}
   - {fileID: 749767836}
   - {fileID: 1426084417}
+  - {fileID: 1359243145}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6887,6 +6888,111 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332278803}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1359243144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1359243145}
+  - component: {fileID: 1359243147}
+  - component: {fileID: 1359243146}
+  m_Layer: 0
+  m_Name: WorldNarritive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1359243145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359243144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 264491430}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1359243146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359243144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb11c7cc106b0f448bc3d4c278bc6240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainWorldDialogue:
+    sentences:
+    - 'What did you do in the end?
+
+'
+    - 'Did you pay the price?
+
+'
+    - 'Was it worth it?
+
+'
+    - 'Let me show you.
+
+'
+    - 'Take a stand.
+
+'
+    - 'Instead of sitting down there,
+
+'
+    - 'see how it is,
+
+'
+    - "when you\u2019re on the same level as everyone else.\r\n\r\n"
+  MirrorWorldDialogue:
+    sentences:
+    - 'Did you do it all for yourself?
+
+'
+    - 'Did you do it for your own self-satisfaction?
+
+'
+    - 'Did you do it out of the goodness of your own heart?
+
+'
+    - Whatever your reasoning was,
+    - 'take a look yourself.
+
+'
+    - "Maybe you\u2019ll get another chance in the future.\r\n"
+    - 'Maybe this was your last one.
+
+'
+    - "Either way, let it serve as a\u2026\r\n"
+    - 'A reminder.
+
+'
+--- !u!114 &1359243147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359243144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a375b70c3f7e690409b9540944849086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  nextSentence: 0
 --- !u!1 &1372620240
 GameObject:
   m_ObjectHideFlags: 0
@@ -7796,6 +7902,301 @@ PrefabInstance:
     - target: {fileID: 5838941368891412009, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
       propertyPath: m_Name
       value: NPC-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.size
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[0]
+      value: 'Thank you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[1]
+      value: "I knew I didn\u2019t deserve it.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[2]
+      value: 'It only makes sense.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[3]
+      value: "Because, that\u2019s who I am.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[4]
+      value: "A person that doesn\u2019t deserve it.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[5]
+      value: 'Strangely enough, I feel at peace.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[6]
+      value: 'Yes.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[7]
+      value: 'This is how it should be.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[8]
+      value: I cannot be forgiven.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[9]
+      value: "I shouldn\u2019t be forgiven.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[10]
+      value: 'And all-
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[11]
+      value: 'All is right with the world.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[12]
+      value: 'Thank you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[13]
+      value: 'I did the ri-
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[14]
+      value: Ah.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[15]
+      value: 'You did the right thing.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[16]
+      value: 'Yes, sorry.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[17]
+      value: "Well, I\u2019m glad that I came here.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[18]
+      value: "I\u2019ll be on my way now.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[19]
+      value: 'Hopefully, never to return.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[20]
+      value: "I hope you\u2019ll be happier now.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[21]
+      value: "I know I won\u2019t.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[22]
+      value: "And that\u2019s fine.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[0]
+      value: 'Why?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[1]
+      value: 'Why would you-
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[2]
+      value: 'Why would you be so kind?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[3]
+      value: 'Being that kind is cruel.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[4]
+      value: 'You-
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[5]
+      value: "You really shouldn\u2019t.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[6]
+      value: 'In fact, I might just go.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[7]
+      value: 'Go away.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[8]
+      value: 'Far, far away.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[9]
+      value: "Yeah, that\u2019s right.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[10]
+      value: 'I-
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[11]
+      value: 'I should just disappear.
+
+        
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[0]
+      value: "I\u2019m sorry."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[1]
+      value: "I\u2019m really sorry."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[2]
+      value: "I can\u2019t sleep.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[3]
+      value: 'All I dream about is this.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[4]
+      value: "I\u2019m so, so sorry."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[5]
+      value: 'But I had to help.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[6]
+      value: "They couldn\u2019t do it without me.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[7]
+      value: 'So I had to leave.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[8]
+      value: 'I knew you would be fine.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[9]
+      value: "I didn\u2019t trust them to be fine.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[10]
+      value: "You\u2019re the person I trust more than anything in the world.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[11]
+      value: "That\u2019s why I did it.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[12]
+      value: "Because I didn\u2019t trust them to handle it.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[13]
+      value: "I\u2019m so, so sorry.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[14]
+      value: 'And I ruined it.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[15]
+      value: "It wasn\u2019t worth it.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[16]
+      value: 'I want to ask you to forgive me,
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[17]
+      value: "But I don\u2019t want you to forgive me.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[18]
+      value: "I don\u2019t deserve this.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[19]
+      value: "I don\u2019t deserve this.\r I don\u2019t deserve this.\r I don\u2019t
+        deserve this.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[20]
+      value: "Despite that,\r Would you?\r\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
       propertyPath: m_RootOrder
