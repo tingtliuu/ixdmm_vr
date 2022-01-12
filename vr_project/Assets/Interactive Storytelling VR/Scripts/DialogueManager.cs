@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Queue<string> sentences;
+   // public Dialogue[] dialogueChoices;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
 
-        nameText.text = dialogue._name;
+       // nameText.text = dialogue._name;
 
         sentences.Clear();
 
