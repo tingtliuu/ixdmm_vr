@@ -5219,6 +5219,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095615127}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1112780379
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1747674248}
+    m_Modifications:
+    - target: {fileID: 5838941368891412009, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_Name
+      value: NPC-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+--- !u!4 &1112780380 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+  m_PrefabInstance: {fileID: 1112780379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1112780381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5838941368891412009, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+  m_PrefabInstance: {fileID: 1112780379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1135349623
 GameObject:
   m_ObjectHideFlags: 0
@@ -5270,6 +5337,7 @@ MonoBehaviour:
   - {fileID: 1920434263}
   - {fileID: 1968987688}
   - {fileID: 597455782}
+  - {fileID: 1112780381}
   destination: {fileID: 1888745886}
   NPCExit: {fileID: 1684503281}
   movementSpeed: 1
@@ -7699,7 +7767,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747674248}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1684503282
 MonoBehaviour:
@@ -7806,6 +7874,7 @@ Transform:
   - {fileID: 1920434262}
   - {fileID: 968816741}
   - {fileID: 650463625}
+  - {fileID: 1112780380}
   - {fileID: 1888745886}
   - {fileID: 1684503281}
   m_Father: {fileID: 622000760}
@@ -8179,7 +8248,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747674248}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1920434261
 PrefabInstance:
