@@ -3261,6 +3261,310 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[0]
+      value: 'I understand.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[1]
+      value: 'With all I have left, I will still be with you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[2]
+      value: "It wasn\u2019t important anyway.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[3]
+      value: 'In fact, you might be better off not doing it.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[4]
+      value: 'And I could never repay you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[5]
+      value: 'But still, I thank you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[6]
+      value: 'Thank you. Thank you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[7]
+      value: "I\u2019ll be on my way now.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[8]
+      value: 'Once again, thank you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[9]
+      value: "We\u2019ll never meet again.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[10]
+      value: 'But know that I never wanted to let you go.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[11]
+      value: 'But I had to let you live your own life.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[12]
+      value: 'I just wanted to be a part of it.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[13]
+      value: "Maybe you\u2019ll get to understand that feeling in the future.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[14]
+      value: 'Goodbye.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[0]
+      value: 'I thank you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[1]
+      value: With all I have left, I will forever be grateful.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[2]
+      value: You did not have to do this.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[3]
+      value: 'In fact, you might be better off not doing it.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[4]
+      value: 'And I could never repay you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[5]
+      value: 'But thank you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[6]
+      value: "Thank you.\r Thank you.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[7]
+      value: "I\u2019ll be on my way now.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[8]
+      value: 'Once again, thank you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[9]
+      value: "We\u2019ll never meet again.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[10]
+      value: 'But know that I never wanted to let you go.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[11]
+      value: 'But I had to let you live your own life.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[12]
+      value: 'I just wanted to be a part of it.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[13]
+      value: "Maybe you\u2019ll get to understand that feeling in the future.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[14]
+      value: 'Goodbye.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[15]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.size
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[0]
+      value: 'Look at you!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[1]
+      value: 'All grown up!
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[2]
+      value: "I\u2019ve missed you.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[3]
+      value: "Hey - I\u2019ll cut this short.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[4]
+      value: "I\u2019ll need a favor.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[5]
+      value: "A helping hand, arm, leg, or whatever you\u2019ve got to spare.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[6]
+      value: "I\u2019ll understand if you don\u2019t want to help.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[7]
+      value: "I don\u2019t think I would do if,\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[8]
+      value: 'if I was in your position.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[9]
+      value: "I\u2019ll not be around for long anyway.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[10]
+      value: "So if you choose to help,\r I probably won\u2019t be around to express
+        my gratitude either way.\r\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[11]
+      value: 'All I ask for is some of your time - out of respect, maybe.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[12]
+      value: "Well, in hindsight,\r respect is not worth a lot.\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[13]
+      value: 'Memories will fade and disappear with time.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[14]
+      value: 'But could you do this last thing for me?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[15]
+      value: 'Please.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[16]
+      value: "It might be too much, so I understand if you don\u2019t.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[17]
+      value: "I told you, I probably wouldn\u2019t.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[18]
+      value: "It\u2019s not that important, it\u2019s mostly symbolic.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[19]
+      value: 'But it would be the world for me.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[20]
+      value: "At least, for the little time I\u2019ve got left.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[21]
+      value: 'After that, nobody will be around to acknowledge what you did.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[22]
+      value: "It\u2019ll be like it never happened.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[23]
+      value: 'Still, would you be as kind to help?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571284555053387297, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[24]
+      value: '
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 8001989236000800354, guid: 94f7155e373d4dc4798a693adb195de0, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3792,6 +4096,269 @@ PrefabInstance:
       propertyPath: GameManager
       value: 
       objectReference: {fileID: 1135349623}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[0]
+      value: "I understand - I do not blame you. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[1]
+      value: 'This does not make you any less of a kind soul.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[2]
+      value: 'I know the time we have is limited, and therefore I understand your
+        limitations.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[3]
+      value: Maybe I could never return the favor.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[4]
+      value: 'However, I do not think you find that important.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[5]
+      value: You are not the type of person to help because you want them to owe
+        you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[6]
+      value: 'I would assume I am not the first one to be rejected, nor the last
+        one..
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[7]
+      value: 'I suspect you understand the importance of time.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[8]
+      value: 'Our time here is limited.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[9]
+      value: 'And so are we.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[10]
+      value: I hope to see you around eventually.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[11]
+      value: 'Eventually.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[12]
+      value: 'Never did like that word.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[13]
+      value: 'It feels too hopeful.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[0]
+      value: 'I thank you - I always knew you were a kind soul.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[1]
+      value: 'I know the time we have is limited, and therefore I am greatly thankful
+        for your help.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[2]
+      value: While I might not be able to return the favor, know that I will always
+        be in your debt.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[3]
+      value: However, I suspect that is not your motivation in this regard.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[4]
+      value: I would assume I am not the first one to be in your debt, nor the last
+        one.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[5]
+      value: 'While I am thankful, be careful.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[6]
+      value: 'Our time here is limited.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[7]
+      value: 'And so are we.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[8]
+      value: 'I hope to see you around eventually.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[9]
+      value: Eventually.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[10]
+      value: 'Never did like that word.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[11]
+      value: 'It feels too hopeful.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[0]
+      value: 'Hey, dear friend. How are you?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[1]
+      value: 'Have you been doing well lately?
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[2]
+      value: 'I sincerely hope so.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[3]
+      value: 'Can I intrude for a moment, to ask if you might so kindly have the
+        time,to listen to me whine.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[4]
+      value: "I\u2019ve got so many problems weighing me down. \r\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[5]
+      value: "I cannot possibly take care of them all by myself without a little
+        help. \r\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[6]
+      value: "I\u2019ll not bother you with all of the details, \rbut could you spare
+        me an ear to listen with?\r\n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[7]
+      value: 'Maybe then you could tell me what to do.
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[8]
+      value: 'If not, maybe you could lend me a HAND instead?
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[9]
+      value: 'That way, I could maybe get the extra strength I would so desperately
+        need, the strength to help lift these worries away.
+
+        
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[10]
+      value: '
+
+        
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[11]
+      value: '
+
+        
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[12]
+      value: '
+
+        
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250921259794893379, guid: 369981371d290af41816a867cf1c11b9, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[13]
+      value: '
+
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 1485089702661806890, guid: 369981371d290af41816a867cf1c11b9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4792,6 +5359,320 @@ PrefabInstance:
       propertyPath: m_WarningMessage
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[0]
+      value: REALLY?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[1]
+      value: 'WHAT IS WRONG WITH YOU?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[2]
+      value: "DON\u2019T YOU UNDERSTAND?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[3]
+      value: 'NOBODY WILL BE HAPPY?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[4]
+      value: "DO YOU NOT CARE ABOUT THE LIVES YOU\u2019LL RUIN?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[5]
+      value: "ABOUT ME?\r\n\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[6]
+      value: 'ABOUT EVERYONE ELSE?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[7]
+      value: 'I KNEW COMING HERE WAS A MISTAKE!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[8]
+      value: 'WHY DID I EVEN BOTHER - YOU LIKE WATCHING THE WORLD BURN,
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[9]
+      value: 'DO YOU NOT?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[10]
+      value: 'DO YOU NOT FEEL ANY REMORSE?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[11]
+      value: 'ARE YOU NOT HUMAN?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[12]
+      value: 'Y-
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[13]
+      value: 'YOU-
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[14]
+      value: 'YOU ARE-
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[15]
+      value: "\u2026\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[16]
+      value: 'I can fix this.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[17]
+      value: 'I tried to reason with you.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[18]
+      value: "Maybe you\u2019ll see me around again.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[19]
+      value: "I won\u2019t be as nice next time.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[20]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[0]
+      value: Good. I knew you would understand.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[1]
+      value: "The needs of the many before the few, \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[2]
+      value: 'or something like that.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[3]
+      value: "I didn\u2019t want this to happen.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[4]
+      value: 'I hope we can still remain in each other''s lives.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[5]
+      value: 'Well, I knew of the consequences.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[6]
+      value: Still did it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[7]
+      value: But you know, I had to.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[8]
+      value: 'You had no right to it.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[9]
+      value: Well, nobody had the right.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[10]
+      value: 'But seems like you understand,
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[11]
+      value: "I\u2019m a better fit.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[0]
+      value: Hi.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[1]
+      value: 'Yeah, this is a little awkward.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[2]
+      value: "I didn\u2019t think I would have to do this.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[3]
+      value: "I don\u2019t really want to either.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[4]
+      value: "You know I\u2019d never ask you if it wasn\u2019t important.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[5]
+      value: "But, there\u2019s something I need to do, same as you.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[6]
+      value: "I don\u2019t think I want it more than you, necessarily. \r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[7]
+      value: 'But it would be better if I had it.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[8]
+      value: For everyone, you know?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[9]
+      value: 'Besides, I need it too.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[10]
+      value: 'I take it back - I probably want it more than you.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[11]
+      value: 'But I need it more than you.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[12]
+      value: 'And everyone else around would be happier as well.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[13]
+      value: "Because, well, I don\u2019t want to be rude.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[14]
+      value: 'But I could handle it better.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[15]
+      value: 'Make better use of it.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[16]
+      value: 'Do you mind stepping aside?
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[17]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[18]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[19]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[20]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[21]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227537655940835149, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[22]
+      value: '
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 3724878222101540657, guid: c7d01062b56d2b846873e88af5d19db7, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5200,7 +6081,6 @@ GameObject:
   - component: {fileID: 1135349626}
   - component: {fileID: 1135349625}
   - component: {fileID: 1135349627}
-  - component: {fileID: 1135349628}
   m_Layer: 0
   m_Name: Game manager
   m_TagString: Untagged
@@ -5259,21 +6139,6 @@ MonoBehaviour:
   gameStart: 0
   Player: {fileID: 1088976606}
 --- !u!114 &1135349627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135349623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ded7d7cde5052ac4fbe0af33c2fe343b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeTimer: 2
-  Player: {fileID: 0}
-  TargetLocation: {fileID: 0}
---- !u!114 &1135349628
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8201,6 +9066,203 @@ PrefabInstance:
     - target: {fileID: 3724878222101540657, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[0]
+      value: Really?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[1]
+      value: "After all you\u2019ve put me through?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[2]
+      value: "Somehow you still think you\u2019re the victim."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[3]
+      value: "You\u2019ve always been like that.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[4]
+      value: 'Always you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[5]
+      value: 'Never about me.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[6]
+      value: "I swear to god - all the time I\u2019ve spent crying about you.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[7]
+      value: You know how sad I feel when you become sad?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[8]
+      value: 'Especially if you start acting like a crybaby.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[9]
+      value: 'Boo-hoo.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[10]
+      value: 'Everyone gets sad sometimes, but I always have to feel sad for you.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[11]
+      value: "That's codependency, y\u2019know!\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[12]
+      value: 'You oughta be thankful to me!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[13]
+      value: "But no, you\u2019re not.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: NoChoice.sentences.Array.data[14]
+      value: "Hope I\u2019ll never see you again.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[0]
+      value: "Aw, I knew you\u2019d do it!\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[1]
+      value: "You\u2019ve always had a soft spot for me!\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[2]
+      value: 'I love that part about you!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[3]
+      value: "I\u2019ll just take this with me!\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[4]
+      value: "I\u2019ll return it next time I\u2019ll see you,\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[5]
+      value: 'I promise!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[6]
+      value: "You know I\u2019ll make it up to you!\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: YesChoice.sentences.Array.data[7]
+      value: 'Bye!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[0]
+      value: 'Hiya!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[1]
+      value: "Hey - I\u2019m wondering,\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[2]
+      value: 'Could you help me out with this one thing?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[3]
+      value: "Like - it wouldn\u2019t take that long.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[4]
+      value: "I\u2019ll just need a little of your time,\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[5]
+      value: "I\u2019ll make it worth your while!\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[6]
+      value: "Besides, you know I\u2019ve always been there for you?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[7]
+      value: 'Remember back then?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[8]
+      value: "I\u2019d always cover for you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[9]
+      value: "You know - you\u2019d always get upset at me, but that\u2019s okay!\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[10]
+      value: "Even if I would feel really bad\u2026\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[11]
+      value: 'I know you remember!
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[12]
+      value: 'Like, I believe in you!
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[13]
+      value: 'Just this once?
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923020605766712920, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
+      propertyPath: ScenarioDialogue.sentences.Array.data[14]
+      value: "Please, usually I\u2019m always the one helping you, you know!\r\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db6b23d62d9a9f14686a60c59bd78a0e, type: 3}
