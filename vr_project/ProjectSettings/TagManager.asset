@@ -8,6 +8,7 @@ TagManager:
   - DollHead
   - DollLeg
   - NPC
+  - Doll
   layers:
   - Default
   - TransparentFX

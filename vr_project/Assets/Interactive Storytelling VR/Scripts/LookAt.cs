@@ -10,10 +10,11 @@ public class LookAt : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Host = GetComponent<Transform>();
+		
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        Host.LookAt(Target);
+        Host.LookAt(new Vector3(Target.position.x, Host.position.y, Target.position.z), Vector3.up);
 	}
 }
