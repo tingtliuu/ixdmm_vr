@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(NPCManager))]
+[RequireComponent(typeof(DialogueManager))]
+
 public class GameManager : MonoBehaviour
 {
     
