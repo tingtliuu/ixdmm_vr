@@ -41,7 +41,7 @@ public class Teleport : MonoBehaviour
                 FadeOut();
                 StartCoroutine(TeleportPlayer(fadeTimer));
                 //cloneDoll();
-                StartCoroutine(ConnectToPlayerBody(fadeTimer));
+                //StartCoroutine(ConnectToPlayerBody(fadeTimer));
             }
             else
             {
@@ -126,6 +126,21 @@ public class Teleport : MonoBehaviour
         GameObject clone =  Instantiate(tempPlayerDoll, PlayerTargetLocation);
         clone.transform.position = NewPlayerBody.transform.position;
         clone.transform.eulerAngles = NewPlayerBody.transform.eulerAngles;
+
+        Transform[] allChildren = clone.GetComponentsInChildren<Transform>();
+        foreach (Transform child in allChildren)
+        {
+            child.gameObject.layer = 6;
+            //child.gameObject.GetComponent<BoxCollider>().enabled = false;
+        }
+
+        Collider[] children = clone.GetComponentsInChildren<BoxCollider>();
+        foreach (Collider child in children)
+        {
+            child.GetComponent<BoxCollider>().enabled = false;
+        }
+        
+        clone.layer = 6;
         FindObjectwithTag("DollArm", Arms, clone);
         FindObjectwithTag("DollHead", Head, clone);
     }
