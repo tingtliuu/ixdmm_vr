@@ -13,6 +13,7 @@ public class NPCManager : MonoBehaviour
     private bool gameStart;
     [HideInInspector] public int npcNumber = 0;
     private float intervall = 0.2f;
+    private bool first = true;
 
     void Start()
     {
@@ -27,11 +28,12 @@ public class NPCManager : MonoBehaviour
     void Update()
     {
         gameStart = GetComponent<GameManager>().gameStart;
+        
 
-        if (npcNumber == npcs.Length)
+        if (npcNumber == npcs.Length && first)
         {
-            GetComponent<TriggerTeleport>().activateTeleport = true; //Fadeout
-
+            first = false;
+            GetComponent<GameManager>().noMoreInteraction = true;
         }
             
     }
