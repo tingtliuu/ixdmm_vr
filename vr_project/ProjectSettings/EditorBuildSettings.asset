@@ -4,8 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Interactive Storytelling VR/Scenes/GameScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bf5d204de530da54dba885436d8d5c8d, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 89bd912616005e949bd59ddf9a760bc2, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 57408ad27b8dbb1428943ba12a4a1615, type: 2}
