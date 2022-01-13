@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
     public Queue<string> sentences;
     [SerializeField] private GameObject[] dialogueUsers;
-   // public Dialogue[] dialogueChoices;
+   
     // Start is called before the first frame update
     void Start()
     {

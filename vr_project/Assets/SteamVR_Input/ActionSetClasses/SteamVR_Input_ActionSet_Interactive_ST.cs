@@ -14,14 +14,14 @@ namespace Valve.VR
     using UnityEngine;
     
     
-    public class SteamVR_Input_ActionSet_mixedreality : Valve.VR.SteamVR_ActionSet
+    public class SteamVR_Input_ActionSet_Interactive_ST : Valve.VR.SteamVR_ActionSet
     {
         
-        public virtual SteamVR_Action_Pose ExternalCamera
+        public virtual SteamVR_Action_Boolean Teleport
         {
             get
             {
-                return SteamVR_Actions.mixedreality_ExternalCamera;
+                return SteamVR_Actions.interactive_ST_Teleport;
             }
         }
     }

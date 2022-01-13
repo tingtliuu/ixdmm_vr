@@ -1297,6 +1297,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1135349624}
   - {fileID: 386998513}
   - {fileID: 1135349624}
   - {fileID: 622000760}
@@ -5369,7 +5370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6601,6 +6602,7 @@ GameObject:
   - component: {fileID: 1135349626}
   - component: {fileID: 1135349625}
   - component: {fileID: 1135349627}
+  - component: {fileID: 1135349628}
   m_Layer: 0
   m_Name: Game manager
   m_TagString: Untagged
@@ -6620,7 +6622,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 264491430}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1135349625
 MonoBehaviour:
@@ -10073,8 +10075,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Teleport: {fileID: 0}
-  DebugMode: 1
-  TriggerTP: 1
+  DebugMode: 0
+  TriggerTP: 0
 --- !u!65 &1834965200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11834,6 +11836,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5758206799907160771, guid: 1d66ac9e3e98feb4cb697812956ad64f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5758642751340199809, guid: 1d66ac9e3e98feb4cb697812956ad64f, type: 3}
       propertyPath: head
       value: 
@@ -11941,6 +11947,14 @@ PrefabInstance:
     - target: {fileID: 5758642751351462221, guid: 1d66ac9e3e98feb4cb697812956ad64f, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758642751351472383, guid: 1d66ac9e3e98feb4cb697812956ad64f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758642751351482463, guid: 1d66ac9e3e98feb4cb697812956ad64f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5758642751351736953, guid: 1d66ac9e3e98feb4cb697812956ad64f, type: 3}
       propertyPath: m_CullingMask.m_Bits
