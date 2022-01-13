@@ -16,6 +16,7 @@ public class NPCManager : MonoBehaviour
     [HideInInspector] public int npcNumber = 0;
     private float intervall = 0.2f;
     private bool first = true;
+    private bool first1 = true;
 
     void Start()
     {
@@ -31,9 +32,8 @@ public class NPCManager : MonoBehaviour
     void Update()
     {
         gameStart = GetComponent<GameManager>().gameStart;
+
         
-        if(npcs[0].GetComponent<NPC>().isAtDestination)
-            UIFrame.SetActive(true);
         if (npcNumber == npcs.Length && first)
         {
             

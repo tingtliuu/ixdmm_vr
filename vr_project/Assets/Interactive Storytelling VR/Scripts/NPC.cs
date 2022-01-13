@@ -7,7 +7,7 @@ public class NPC : MonoBehaviour
 {
     [HideInInspector] public GameObject GameManager;
 
-    bool first = true;
+    [HideInInspector] public bool first = true;
     bool firstCheck = true;
     public bool isAtDestination;
     public bool interactionFinished;

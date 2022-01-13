@@ -15,6 +15,7 @@ public class Teleport : MonoBehaviour
     [SerializeField] GameObject LeftHand;
     [SerializeField] GameObject RightHand;
     [SerializeField] GameObject PlayerDoll;
+    [SerializeField] GameObject WorldNarrative;
     [SerializeField] Transform PlayerTargetLocation;    
     [SerializeField] Transform DollTargetLocation;
     
@@ -50,6 +51,14 @@ public class Teleport : MonoBehaviour
             }
            
         }
+
+        if (WorldNarrative.GetComponent<WorldNarritive>().teleportDoll)
+        {
+            TeleportDoll();
+        }
+
+
+        
     }
 
     IEnumerator ConnectToPlayerBody(float s)
@@ -82,11 +91,16 @@ public class Teleport : MonoBehaviour
         Player.transform.position = PlayerTargetLocation.position;
         Player.transform.eulerAngles = PlayerTargetLocation.eulerAngles;
         cloneDoll();
+        
+        activateTeleport = true;
+    }
+    
+    void TeleportDoll()
+    {        
         PlayerDoll.transform.position = DollTargetLocation.position;
-        PlayerDoll.transform.eulerAngles = (DollTargetLocation.eulerAngles + new Vector3(0,90,0));
+        PlayerDoll.transform.eulerAngles = (DollTargetLocation.eulerAngles + new Vector3(0, 90, 0));
         PlayerDoll.transform.parent = DollTargetLocation;
         PlayerDoll.GetComponentInChildren<DollMover>().enabled = true;
-        activateTeleport = true;
     }
 
     public void FindObjectwithTag(string _tag, List<GameObject> list, GameObject target)

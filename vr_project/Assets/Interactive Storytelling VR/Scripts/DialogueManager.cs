@@ -6,12 +6,21 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public Text dialogueText;
+    public Text mirrorWorldDialogueText;
     public Queue<string> sentences;
     public bool endOfConvo;
     public bool isInteractionOver;
     [SerializeField] private GameObject[] dialogueUsers;
-   
-    // Start is called before the first frame update
+   public bool _switch;
+
+    private void Update()
+    {
+        if (_switch)
+        {
+            _switch = false;
+            DisplayNextSentence();
+        }
+    }
     void Start()
     {
         sentences = new Queue<string>();
@@ -54,4 +63,8 @@ public class DialogueManager : MonoBehaviour
         endOfConvo = true;
     }
 
+    public void switchDialogueText()
+    {
+        dialogueText = mirrorWorldDialogueText;
+    }
 }

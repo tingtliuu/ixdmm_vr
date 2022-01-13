@@ -22,6 +22,14 @@ public class DialogueTrigger : MonoBehaviour
         dialoguePackage = new List<Dialogue>();        
     }
 
+    private void Update()
+    {
+        if (nextSentence)
+        {
+            nextSentence = false;
+            dialogueManager.DisplayNextSentence();
+        }
+    }
 
     public void StartDialogue()
     {

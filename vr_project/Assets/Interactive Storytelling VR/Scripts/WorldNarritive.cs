@@ -7,7 +7,9 @@ using UnityEngine;
 public class WorldNarritive : MonoBehaviour
 {
     bool first = true;
+    bool first1 = true;
     bool isInteractionOver;
+    [HideInInspector] public bool teleportDoll;
     List<Dialogue> dialoguePackage;
     [SerializeField] Dialogue MainWorldDialogue;
     [SerializeField] Dialogue MirrorWorldDialogue;
@@ -33,10 +35,16 @@ public class WorldNarritive : MonoBehaviour
                 GetComponent<DialogueTrigger>().init(dialoguePackage);
                 GetComponent<DialogueTrigger>().StartDialogue();
             }
-            if (GetComponent<DialogueTrigger>().dialogueManager.endOfConvo)
+            if (GetComponent<DialogueTrigger>().dialogueManager.endOfConvo && first1)
             {
-               // Debug.Log("WE DONE");
+                first1 = false;
                 GetComponent<DialogueTrigger>().dialogueManager.GetComponent<GameManager>().noMoreInteraction = true;
+                GetComponent<DialogueTrigger>().dialogueManager.switchDialogueText();
+                GetComponent<DialogueTrigger>().loadDialogue(1);
+            }
+            else if(first1 == false && GetComponent<DialogueTrigger>().dialogueManager.endOfConvo)
+            {
+                teleportDoll = true;
             }
         }
     }
