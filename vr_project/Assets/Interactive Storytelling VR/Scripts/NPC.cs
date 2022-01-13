@@ -40,23 +40,26 @@ public class NPC : MonoBehaviour
             first = false;
         }
 
-        if (isYes && firstCheck)
+        if (isAtDestination)
         {
-            firstCheck = false;
-            Debug.Log(gameObject.name + " is a yes");
-            GetComponent<DialogueTrigger>().loadDialogue(1);
-        }
-        else if (isNo && firstCheck)
-        {
-            firstCheck = false;
-            Debug.Log(gameObject.name + " is a no");
-            //interactionFinished = true;
-            GetComponent<DialogueTrigger>().loadDialogue(2);
+            if (isYes && firstCheck)
+            {
+                firstCheck = false;
+                Debug.Log(gameObject.name + " is a yes");
+                GetComponent<DialogueTrigger>().loadDialogue(1);
+            }
+            else if (isNo && firstCheck)
+            {
+                firstCheck = false;
+                Debug.Log(gameObject.name + " is a no");
+                //interactionFinished = true;
+                GetComponent<DialogueTrigger>().loadDialogue(2);
 
-        }
-        else if(isNo || isYes)
-        {
-            interactionFinished = GetComponent<DialogueTrigger>().dialogueManager.endOfConvo;
+            }
+            else if (isNo || isYes)
+            {
+                interactionFinished = GetComponent<DialogueTrigger>().dialogueManager.endOfConvo;
+            }
         }
     }
 

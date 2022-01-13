@@ -13,9 +13,11 @@ public class VRControllerActions : MonoBehaviour
     
     void Start()
     {
-        Decline.AddOnStateDownListener(DeclineTrigger, handType);
+        Decline.AddOnStateUpListener(DeclineTrigger, handType);
+        //Decline.AddOnStateDownListener(DeclineTrigger, handType);
 
-        NextSentence.AddOnStateDownListener(NextSentenceTrigger, handType);
+        NextSentence.AddOnStateUpListener(NextSentenceTrigger, handType);
+       // NextSentence.AddOnStateDownListener(NextSentenceTrigger, handType);
         
     }
     public void DeclineTrigger(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)

@@ -9,6 +9,7 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private Transform destination;
     [SerializeField] private Transform NPCExit;
     [SerializeField] private float movementSpeed;
+    //[HideInInspector] public bool isInteractionOver;
     private Transform player;
     private bool gameStart;
     [HideInInspector] public int npcNumber = 0;
@@ -32,8 +33,10 @@ public class NPCManager : MonoBehaviour
 
         if (npcNumber == npcs.Length && first)
         {
+            
             first = false;
-            GetComponent<GameManager>().noMoreInteraction = true;
+            GetComponent<DialogueManager>().isInteractionOver = true;
+            //Debug.Log(isInteractionOver);
         }
             
     }

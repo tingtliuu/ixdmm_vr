@@ -6,6 +6,8 @@ using Valve.VR.InteractionSystem.Sample;
 public class AttachLimb : MonoBehaviour
 {
     public GameObject[] missingLimbs;
+    bool isLimbReceived;
+    [SerializeField] GameObject GameManager;
     List<GameObject> missingLimbsList;
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,7 @@ public class AttachLimb : MonoBehaviour
                 offeredLimb.GetComponent<LockToOrigin>().Destroy();
                 offeredLimb.GetComponent<LockToPoint>().enabled = false;
                 Destroy(offeredLimb);
+                GameManager.GetComponent<NPCManager>().sendChoice(true);
             }
               
         }

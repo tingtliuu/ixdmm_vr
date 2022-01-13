@@ -862,6 +862,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
+      propertyPath: NPCManager
+      value: 
+      objectReference: {fileID: 1135349623}
+    - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 1135349623}
+    - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
       propertyPath: missingLimbs.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -2680,6 +2688,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
+      propertyPath: NPCManager
+      value: 
+      objectReference: {fileID: 1135349623}
+    - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 1135349623}
     - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
       propertyPath: missingLimbs.Array.size
       value: 1
@@ -5382,7 +5398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153878, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_RootOrder
@@ -6690,13 +6706,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1518280646}
+  endOfConvo: 0
+  isInteractionOver: 0
   dialogueUsers:
   - {fileID: 3693988284711084899}
   - {fileID: 1920434263}
   - {fileID: 1968987688}
   - {fileID: 597455782}
   - {fileID: 1579850862}
-  - {fileID: 0}
+  - {fileID: 1359243144}
 --- !u!114 &1135349628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7027,7 +7045,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1241172926}
   - component: {fileID: 1241172928}
-  - component: {fileID: 1241172927}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -7050,14 +7067,6 @@ Transform:
   m_Father: {fileID: 1426084417}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0.266, y: 0.092, z: -0.114}
---- !u!81 &1241172927
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241172925}
-  m_Enabled: 1
 --- !u!20 &1241172928
 Camera:
   m_ObjectHideFlags: 0
@@ -8613,6 +8622,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
+      propertyPath: NPCManager
+      value: 
+      objectReference: {fileID: 1135349623}
+    - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 1135349623}
+    - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
       propertyPath: missingLimbs.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -8935,6 +8952,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1747674248}
     m_Modifications:
+    - target: {fileID: 163006160824427439, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: NPCManager
+      value: 
+      objectReference: {fileID: 1135349623}
+    - target: {fileID: 163006160824427439, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 1135349623}
     - target: {fileID: 2996417971860974839, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8955,14 +8980,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC-4
       objectReference: {fileID: 0}
-    - target: {fileID: 7953067061137570208, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5605e5920a541bf408757aac3099af95, type: 2}
-    - target: {fileID: 8138693807497505405, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5605e5920a541bf408757aac3099af95, type: 2}
     - target: {fileID: 7614540971497095849, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
       propertyPath: NoChoice.sentences.Array.size
       value: 23
@@ -9153,7 +9170,7 @@ PrefabInstance:
       propertyPath: YesChoice.sentences.Array.data[11]
       value: 'I should just disappear.
 
-        
+
 
 '
       objectReference: {fileID: 0}
@@ -9258,6 +9275,14 @@ PrefabInstance:
       propertyPath: ScenarioDialogue.sentences.Array.data[20]
       value: "Despite that,\r Would you?\r\n\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 7953067061137570208, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5605e5920a541bf408757aac3099af95, type: 2}
+    - target: {fileID: 8138693807497505405, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5605e5920a541bf408757aac3099af95, type: 2}
     - target: {fileID: 8563491129713068757, guid: 469aa9ac8711bf847bc2e34071d6ca47, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -11676,6 +11701,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
+      propertyPath: NPCManager
+      value: 
+      objectReference: {fileID: 1135349623}
+    - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 1135349623}
     - target: {fileID: 7375367983562442700, guid: 5e14d4e91893fb5499aac140ff3cf7d9, type: 3}
       propertyPath: missingLimbs.Array.size
       value: 1
