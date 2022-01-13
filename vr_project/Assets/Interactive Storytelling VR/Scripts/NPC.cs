@@ -33,9 +33,10 @@ public class NPC : MonoBehaviour
 
     private void Update()
     {
+       
         if (isAtDestination && first)
         {
-           // GetComponent<DialogueTrigger>().StartDialogue();
+            GetComponent<DialogueTrigger>().StartDialogue();
             first = false;
         }
 
@@ -43,15 +44,19 @@ public class NPC : MonoBehaviour
         {
             firstCheck = false;
             Debug.Log(gameObject.name + " is a yes");
-            //GetComponent<DialogueTrigger>().loadDialogue(1);
+            GetComponent<DialogueTrigger>().loadDialogue(1);
         }
         else if (isNo && firstCheck)
         {
             firstCheck = false;
             Debug.Log(gameObject.name + " is a no");
-            interactionFinished = true;
-            //GetComponent<DialogueTrigger>().loadDialogue(2);
+            //interactionFinished = true;
+            GetComponent<DialogueTrigger>().loadDialogue(2);
 
+        }
+        else if(isNo || isYes)
+        {
+            interactionFinished = GetComponent<DialogueTrigger>().dialogueManager.endOfConvo;
         }
     }
 
