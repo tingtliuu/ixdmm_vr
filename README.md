@@ -22,4 +22,4 @@ Tingting Liu (gustingtli@student.gu.se) *Game Design and Technology*
 
 # How to run
 
-todo
+Run the .exe from the build folder
