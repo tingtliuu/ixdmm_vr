@@ -7,7 +7,10 @@ public class GameStartScript : MonoBehaviour
     [SerializeField] GameObject GameManager;
     private void OnTriggerEnter(Collider other)
     {
-        GameManager.GetComponent<GameManager>().gameStart = true;
-        GetComponent<GameStartScript>().enabled = false;
+        if (other.tag == "Player")
+        {
+            GameManager.GetComponent<GameManager>().gameStart = true;
+            GetComponent<GameStartScript>().enabled = false;
+        }
     }
 }

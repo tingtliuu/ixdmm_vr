@@ -9,6 +9,7 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private Transform destination;
     [SerializeField] private Transform NPCExit;
     [SerializeField] private float movementSpeed;
+    public GameObject UIFrame;
     //[HideInInspector] public bool isInteractionOver;
     private Transform player;
     private bool gameStart;
@@ -22,6 +23,7 @@ public class NPCManager : MonoBehaviour
         foreach(GameObject npc in npcs)
         {
             npc.GetComponent<NPC>().GameManager = this.gameObject;
+
         }
     }
 
@@ -30,7 +32,8 @@ public class NPCManager : MonoBehaviour
     {
         gameStart = GetComponent<GameManager>().gameStart;
         
-
+        if(npcs[0].GetComponent<NPC>().isAtDestination)
+            UIFrame.SetActive(true);
         if (npcNumber == npcs.Length && first)
         {
             

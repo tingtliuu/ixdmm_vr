@@ -7,6 +7,7 @@ using UnityEngine;
 public class WorldNarritive : MonoBehaviour
 {
     bool first = true;
+    bool isInteractionOver;
     List<Dialogue> dialoguePackage;
     [SerializeField] Dialogue MainWorldDialogue;
     [SerializeField] Dialogue MirrorWorldDialogue;
@@ -22,11 +23,21 @@ public class WorldNarritive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GetComponent<DialogueTrigger>().dialogueManager.isInteractionOver && first)
+        isInteractionOver = GetComponent<DialogueTrigger>().dialogueManager.isInteractionOver;
+
+        if(isInteractionOver)
         {
-            first = false;
-            GetComponent<DialogueTrigger>().init(dialoguePackage);
-            GetComponent<DialogueTrigger>().StartDialogue();
+            if (first)
+            {
+                first = false;
+                GetComponent<DialogueTrigger>().init(dialoguePackage);
+                GetComponent<DialogueTrigger>().StartDialogue();
+            }
+            if (GetComponent<DialogueTrigger>().dialogueManager.endOfConvo)
+            {
+               // Debug.Log("WE DONE");
+                GetComponent<DialogueTrigger>().dialogueManager.GetComponent<GameManager>().noMoreInteraction = true;
+            }
         }
     }
 }

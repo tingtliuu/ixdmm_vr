@@ -9,8 +9,9 @@ public class TeleportTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         bool noMoreInteraction = Teleport.GetComponent<GameManager>().noMoreInteraction;
-        
-        if (other.gameObject.tag == "Player" && noMoreInteraction)
+
+        //Debug.Log(noMoreInteraction);
+        if (other.gameObject.tag == "MainCamera" && noMoreInteraction)
         {
             Teleport.activateTeleport = true;
         }

@@ -22,13 +22,13 @@ public class VRControllerActions : MonoBehaviour
     }
     public void DeclineTrigger(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Declined");
+       // Debug.Log("Declined");
         GetComponent<NPCManager>().sendChoice(false);        
     }
     public void NextSentenceTrigger(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
       
-        Debug.Log("NEXT SENTENCE");
+        //Debug.Log("NEXT SENTENCE");
         GetComponent<DialogueManager>().DisplayNextSentence();
       
     }
