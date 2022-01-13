@@ -78,4 +78,14 @@ public class NPCManager : MonoBehaviour
 
     }
 
+    public void sendChoice(bool choice)
+    {
+        if (npcNumber != npcs.Length)
+        {
+            if (choice)
+                npcs[npcNumber].GetComponent<NPC>().isYes = true;
+            else
+                npcs[npcNumber].GetComponent<NPC>().isNo = true;
+        }
+    }
 }

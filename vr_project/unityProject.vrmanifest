@@ -5,10 +5,10 @@
       "app_key": "application.generated.unity.testproject.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\IxD studio\\Desktop\\Unity VR _ IST\\gitRepo\\vr_project\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "D:\\University\\Gothenburg\\Interactive Storytelling\\IST_VR\\vr_project\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "test project [Testing]"
+          "name": "ixdmmVR [Testing]"
         }
       }
     }

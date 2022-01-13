@@ -15,7 +15,9 @@ This VR experience, titled "The Gift and The Giver", is attempting to make the p
 The project members are the following;
 
 Samir Aoun (gusaousa@student.gu.se) *Game Design and Technology*
+
 Johnny Hamnesjö Olausson (johola@student.chalmers.se) *Interaction Design and Technologies*
+
 Tingting Liu (gustingtli@student.gu.se) *Game Design and Technology*
 
 # How to run

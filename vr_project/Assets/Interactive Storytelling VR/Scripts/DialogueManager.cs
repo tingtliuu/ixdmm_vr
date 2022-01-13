@@ -7,8 +7,9 @@ public class DialogueManager : MonoBehaviour
 {
     public Text dialogueText;
     public Queue<string> sentences;
+    public bool endOfConvo;
     [SerializeField] private GameObject[] dialogueUsers;
-   // public Dialogue[] dialogueChoices;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-
+        endOfConvo = false;
        // nameText.text = dialogue._name;
 
         sentences.Clear();
@@ -49,6 +50,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         Debug.Log("End of convo");
+        endOfConvo = true;
     }
 
 }

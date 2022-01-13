@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-
-
-    bool first = true;
-    bool first1 = true;
     List<Dialogue> dialoguePackage;
     [HideInInspector] public DialogueManager dialogueManager;
 
@@ -30,7 +26,7 @@ public class DialogueTrigger : MonoBehaviour
     public void StartDialogue()
     {
         if (dialoguePackage.Count != 0)
-            dialogueManager.StartDialogue(dialoguePackage[0]);
+            loadDialogue(0);
     }
 
     public void loadDialogue(int dialogueNumber)
