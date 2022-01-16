@@ -1,3 +1,7 @@
+# Instructions for running
+
+Run the \vr_project\Build\ixdmmVR.exe while SteamVR is running and whatever headset (Rift, Quest, Vive, Index) is running with the SteamVR overlay (since the project have dependency assets from steamVR). 
+
 # Interactive Storytelling and Digital Movie Making (ixdmm) DAT485/DIT999 
 
 Course given at the shared department of Computer Science and Engineering at Chalmers University of Technology and the University of Gothenburg, by the division of [Interaction Design and Software Engineering](https://www.chalmers.se/en/departments/cse/organisation/idse/Pages/default.aspx).
