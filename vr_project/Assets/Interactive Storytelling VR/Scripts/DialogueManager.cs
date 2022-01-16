@@ -11,13 +11,13 @@ public class DialogueManager : MonoBehaviour
     public bool endOfConvo;
     public bool isInteractionOver;
     [SerializeField] private GameObject[] dialogueUsers;
-   public bool _switch;
+   public bool NextSentence;
 
     private void Update()
     {
-        if (_switch)
+        if (NextSentence)
         {
-            _switch = false;
+            NextSentence = false;
             DisplayNextSentence();
         }
     }
